@@ -35,7 +35,8 @@
 #           OR --> Potentiometer --> VDD (+5.0V) (to have control of the backlight brightness)
 # 16 --> Ground
 
-
+import sys
+sys.path.append('.')
 
 import RPi.GPIO as GPIO
 import time
